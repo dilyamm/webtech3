@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Franz Kafka</title>
+    <link rel="icon" href="kafkaicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lab2style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="text-center py-4">
+        <h1>Kafkaesque</h1>
+        <nav class="d-flex justify-content-center">
+            <a href="#" class="mx-3">about Franz Kafka</a>
+            <a href="#" class="mx-3">books</a>
+            <a href="#" class="mx-3">contact us</a>
+            <a href="#" class="mx-3">additional information</a>
+        </nav>
+    </header>
+
+    <section class="bg-dark text-white p-5">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div class="bio-text">
+                    <h2>Franz Kafka</h2>
+                    <p>Franz Kafka (3 July 1883 – 3 June 1924) was a German-language novelist and writer from Prague. He is widely regarded as a major 
+                        figure of 20th-century literature. His work fuses elements of realism and the fantastic. It typically features isolated protagonists 
+                        facing bizarre or surrealistic predicaments and incomprehensible socio-bureaucratic powers. It has been interpreted as exploring themes 
+                        of alienation, existential anxiety, guilt, and absurdity. His best known works include the novella The Metamorphosis and novels The Trial 
+                        and The Castle. The term Kafkaesque has entered English to describe absurd situations like those depicted in his writing.</p>
+                </div>
+                <div class="bio-image">
+                    <img src="kafka.jpg" alt="Franz Kafka" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="book-section">
+                    <h3 class="book-title">The Metamorphosis</h3>
+                    <p class="book-description">One of Kafka's best-known works, The Metamorphosis tells the story of salesman Gregor Samsa, who wakes one morning 
+                        to find himself inexplicably transformed into a huge insect and struggles to adjust to this condition. The novella has been widely 
+                        discussed among literary critics, who have offered varied interpretations. In popular culture and adaptations of the novella, 
+                        the insect is commonly depicted as a cockroach.</p>
+                        <button type="button" class="btn btn-outline-dark">Read</button>
+                    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book-section">
+                    <h3 class="book-title">The Castle</h3>
+                    <p class="book-description">Left unfinished by Kafka in 1922 and not published until 1926, two years after his death, The Castle is the haunting tale of K.’s relentless, unavailing struggle with an inscrutable authority in order to gain access to the Castle. Scrupulously following the fluidity and breathlessness of the sparsely punctuated original manuscript, Mark Harman’s new translation reveals levels of comedy, energy, and visual power, previously unknown to English language readers.</p>
+                    <button type="button" class="btn btn-outline-dark">Read</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="book-section">
+                    <h3 class="book-title">Letters to Milena</h3>
+                    <p class="book-description">The passionate but doomed epistolary love affair between a Czech translator and one of the greatest writers of the twentieth century, the author of The Metamorphosis and The Trial. 
+
+                        "Extraordinary, touching, horrifying, brilliant, sickly, [and] heartbreaking…. The most significant key we have for a reading of the author's novels and short stories." —The New York Times
+                        
+                        In no other work does Franz Kafka reveal himself as in Letters to Milena, which begins as a business correspondence but soon develops into an epistolary love affair. Kafka's Czech translator, Milena Jesenská, was a gifted and charismatic twenty-three-year-old who was uniquely able to recognize Kafka's complex genius and his even more complex character. For thirty-six-year-old Kafka, she was "a living fire, such as I have never seen." It was to Milena that he revealed his most intimate self and, eventually, entrusted his diaries for safekeeping.</p>
+                        <button type="button" class="btn btn-outline-dark">Read</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section d-flex justify-content-center">
+        <form action="submit_form.php" method="POST" class="w-50 p-3">
+            <h2>Contacts</h2>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-dark">Read</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p><a href="#" class="text-white">What Is Kafkaesque? The 'Philosophy' of Franz Kafka</a></p>
+    </footer>
+
+</body>
+</html>
